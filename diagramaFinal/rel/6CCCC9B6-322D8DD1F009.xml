@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="6CCCC9B6-E7D7-4CA3-5CA5-322D8DD1F009" mainViewID="F7B3DC84-6316-9537-926D-F0EFEBF65681">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-10-26 11:25:48 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

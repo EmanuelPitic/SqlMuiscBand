@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D5CB901-3D4E-989E-7A4A-729C9F8E2235" name="Colaboratori">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>37A00EF5-7474-CD0A-4C7C-A487B5A07072</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Colaborator" id="9A4C0F8C-7D4D-3B66-6B8C-3C23421039AA">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>3F18A638-643B-C904-DD50-6BCC762C96EE</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nume" id="622BFBB3-FBBC-C2DA-880B-2C1A5719A40F">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>DF43E307-4715-00A5-446A-2E1D91C38598</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prenume" id="3A07262F-7B38-705B-B45B-143D27563DEF">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>B82F18BA-3E0C-5D55-D025-15906EE79CFD</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Serviciu" id="7D7FB842-CF9A-6AE2-6D1F-9ACECCF579BD">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>735666E5-90ED-B4BB-1A49-FA62D2582E6D</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<listOfValues>
+<valueDef value="DJ" description=""/>
+<valueDef value="Inginer Sunet" description=""/>
+<valueDef value="Inginer de Ilumini" description=""/>
+<valueDef value="Instrumentist" description=""/>
+<valueDef value="Solist" description=""/>
+</listOfValues>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefon" id="993149D5-8E60-33E8-9F1E-5815D443C6E5">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>69A2F48E-28A4-3066-FBA7-63A5B4983C60</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PFA" id="9055F5A4-CC70-D298-3165-EA10F955076D">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>954D5493-CE5B-1170-E9FE-0378753B9357</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="750772C7-0CE1-434D-20C6-7DB4B7A0EB92">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>CFDC155E-C5BF-6E1B-EAB6-6E06D9BCA62A</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<constraintName>colaboratori_email_ck</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="REGEXP_LIKE(email, &apos;^[a-z0-9._%-]+@[a-z0-9.-]+\.[a-z]{2,4}$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A53269FE-5A56-1E26-4B65-18DA6174A57E" name="Colaboratori_PK">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>60AE5565-E33F-DA52-828F-80A06F14CD76</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A4C0F8C-7D4D-3B66-6B8C-3C23421039AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89DA6039-5684-F630-8038-AB3DB35752C0" name="Colaboratori_Email_UN">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>0F72A55D-E5C8-43ED-1660-54D028EABC2F</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="750772C7-0CE1-434D-20C6-7DB4B7A0EB92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26FF4B52-BFF8-831E-137C-C34628346075" name="Colaboratori_PFA_UN">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>7D5B4B32-712D-3516-3096-DD7339F7AEF2</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9055F5A4-CC70-D298-3165-EA10F955076D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

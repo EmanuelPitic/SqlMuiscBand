@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Locatii" directorySegmentName="seg_0" id="77BE0D7D-7C86-67EA-3CA7-D4AB470DDC7D">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Nume_Locatie" id="1D17F352-AF03-AA68-0125-89BF20FA3D1E">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Contact_Locatie" id="AEBF4B0D-3E52-F6AE-436F-A9A00245F8E4">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_Locatie" id="B94767E8-7DDE-7D5C-6270-BC436806E4FA">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Adresa" id="CC63C389-BA1A-D46D-3B9B-F95B4D547A9F">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Locatii_PK" id="94EB48D2-3147-6A14-DA21-1E68933FF796">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

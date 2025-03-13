@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Playlist_Melodie" directorySegmentName="seg_0" id="3ED8012A-F3E1-4390-B2CE-13756200F5B6">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-10-26 12:12:21 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<engineerTo>
+<item key="6CCCC9B6-E7D7-4CA3-5CA5-322D8DD1F009" value="true"/>
+</engineerTo>
+<sourcePk>3B09EAA9-5D3C-E6B5-E0AE-E52F002B3195</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>contine</nameOnSource>
+<nameOnTarget>este inclusa</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>087AD426-0C12-426B-962C-B68D032EB308</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>276213C8-0ADC-F1F9-AD7F-64E7E9CED323</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

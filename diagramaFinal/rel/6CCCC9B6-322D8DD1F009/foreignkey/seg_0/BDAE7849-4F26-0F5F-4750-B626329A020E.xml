@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BDAE7849-4F26-0F5F-4750-B626329A020E" containerWithKeyObject="8EFE8421-92B5-4E4D-5A95-258D487CD8E7" localFKIndex="65EEAB5F-1D40-50D6-F9C5-C07077A8EF02" name="Colaboratori_FK">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>EB33EF0F-6F20-EE51-5060-D559175C3019</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<referredTableLongName>Colaboratori</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9D5CB901-3D4E-989E-7A4A-729C9F8E2235</referredTableID>
+<keyObject>A53269FE-5A56-1E26-4B65-18DA6174A57E</keyObject>
+<referredKeyID>A53269FE-5A56-1E26-4B65-18DA6174A57E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Colaborator</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Playlist_Melodie" directorySegmentName="seg_0" id="9DBFCA23-A064-2F0D-88DE-E2D735EFF3AF">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_Melodie" id="0410A03C-F8B3-A023-30BB-A5E9F6E22328">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_Playlist" id="F96EE5C4-3837-EB25-4D4C-56F7E20A9589">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Playlisturi_FKv2" id="A0EB4512-4741-D236-7196-1C0E42AAADBA">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Melodii_FK" id="C08DD52C-055C-F214-8B59-25D2B2EB1105">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Playlist_Melodie_PK" id="E150ED92-6C0B-FF80-5C87-EC7314D08D79">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

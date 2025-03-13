@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Eveniment_Locatii" directorySegmentName="seg_0" id="01F51C33-4AF6-1C7D-EE4E-B99E3240D42E">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-10-26 11:45:52 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<engineerTo>
+<item key="6CCCC9B6-E7D7-4CA3-5CA5-322D8DD1F009" value="true"/>
+</engineerTo>
+<sourcePk>175FE3FC-9E28-6692-28DC-527AAB54C816</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>se desfasoara</nameOnSource>
+<nameOnTarget>gazduiesc</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4863FE18-9520-BB24-B6E5-85451CA5AF07</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4335DAB9-8C14-2DC9-1DFC-26E038E1785E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Tip_Locatie" id="85DEB541-8D64-B362-AB51-4D422E184603">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-10-26 11:46:06 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<engineerTo>
+<item key="6CCCC9B6-E7D7-4CA3-5CA5-322D8DD1F009" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Ora_Inceput" id="635C0338-0E95-C670-7E49-946704E8F6FF">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-10-26 11:46:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<engineerTo>
+<item key="6CCCC9B6-E7D7-4CA3-5CA5-322D8DD1F009" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Ora_Final" id="7E3ED7EB-12CA-8F80-4CED-5AF855510D9E">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-10-26 11:47:02 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<engineerTo>
+<item key="6CCCC9B6-E7D7-4CA3-5CA5-322D8DD1F009" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

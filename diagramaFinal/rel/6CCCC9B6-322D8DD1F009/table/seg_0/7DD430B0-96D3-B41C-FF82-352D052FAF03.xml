@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DD430B0-96D3-B41C-FF82-352D052FAF03" name="Eveniment_Playlisturi">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Eveniment" id="DF6E3537-B764-BDCD-07E8-92701E31C375">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D11CDA8-0A60-B038-1741-EF4D7DB795A9" referredColumn="F73F9A75-6164-03F6-F74F-FF8777246CE7"/>
+</associations>
+</Column>
+<Column name="ID_Playlist" id="BB64D776-9EE1-A385-9B08-DC9FA7E4F8F7">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AACB396E-80D4-E6E5-8CC3-5153F4113DC0" referredColumn="95475441-DC55-F81A-7CEC-4461504AB822"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="837AE2BA-5343-D575-4001-311501DFB59B" name="Eveniment_Playlisturi_PK">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF6E3537-B764-BDCD-07E8-92701E31C375"/>
+<colUsage columnID="BB64D776-9EE1-A385-9B08-DC9FA7E4F8F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F23AE4B-9ED9-B6DE-A73D-BF6CF36FB56A" name="Evenimente_FKv4">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>87D0BC06-1285-D5FC-9102-BBA89FA2C97B</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF6E3537-B764-BDCD-07E8-92701E31C375"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB18EA02-4B9F-8898-A161-67A16416A0C0" name="Playlisturi_FK">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>87D0BC06-1285-D5FC-9102-BBA89FA2C97B</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB64D776-9EE1-A385-9B08-DC9FA7E4F8F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

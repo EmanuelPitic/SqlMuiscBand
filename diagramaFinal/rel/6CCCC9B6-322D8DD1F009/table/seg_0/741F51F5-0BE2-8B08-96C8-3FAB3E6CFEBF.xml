@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="741F51F5-0BE2-8B08-96C8-3FAB3E6CFEBF" name="Melodii">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>276213C8-0ADC-F1F9-AD7F-64E7E9CED323</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Melodie" id="61CBCB47-31A8-D362-552D-41E7424E7DE3">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>36B8ED84-823F-7E19-ACDE-C93B5C7AA7A9</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementStartWith>25000</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Titlu_Melodie" id="10BA88E6-07AC-0BC5-5282-1A41E085C775">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>D7271188-3F26-91EA-8C7A-6CE8C24BACC9</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gama" id="A58344DD-61C6-0793-BA7B-EEC9DA867CB4">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>7F8DAE9C-D7D8-7140-2C78-DB3637DE8FF0</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<constraintName>melodii_gama_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="REGEXP_LIKE(Gama, &apos;^[A-Ha-h](#|♭|b)?$&apos;) "/>
+</checkConstraint>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BMP" id="4E0D4978-60DF-4569-1CE1-6D420E5E12ED">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>D95190C7-1868-513D-EB18-A37E3AD75B2E</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<constraintName>melodii_bmp_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>200</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8187F11-F920-8F3A-397F-2C8F4B843425" name="Melodii_PK">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>6B183895-4DAE-3489-EA9A-EC0051320B13</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61CBCB47-31A8-D362-552D-41E7424E7DE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

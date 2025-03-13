@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8EFE8421-92B5-4E4D-5A95-258D487CD8E7" name="Colab_Event">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Eveniment" id="C2F2AEEB-8143-63D5-E84C-E5EB39D49C86">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA639E17-58B0-8C00-BB1F-6C8EDAD57D97" referredColumn="F73F9A75-6164-03F6-F74F-FF8777246CE7"/>
+</associations>
+</Column>
+<Column name="ID_Colaborator" id="F347DAF5-3960-287B-9ED3-5FEB1649439E">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDAE7849-4F26-0F5F-4750-B626329A020E" referredColumn="9A4C0F8C-7D4D-3B66-6B8C-3C23421039AA"/>
+</associations>
+</Column>
+<Column name="Suma" id="8747E2F5-8230-2004-83D3-11D891311B79">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>2DDA6396-2C7C-CE2F-1C63-34B2EE2D0D17</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<constraintName>colab_event_suma_negociata_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>1500</endValue>
+<description>Pret in €;</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC47EA35-80FC-14DC-BF9A-E58AA98DB8FB" name="Colaboratori_Eveniment_PK">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2F2AEEB-8143-63D5-E84C-E5EB39D49C86"/>
+<colUsage columnID="F347DAF5-3960-287B-9ED3-5FEB1649439E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="835A625D-B7BD-361D-AC38-79A5284194EE" name="Evenimente_FK">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>EB33EF0F-6F20-EE51-5060-D559175C3019</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2F2AEEB-8143-63D5-E84C-E5EB39D49C86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65EEAB5F-1D40-50D6-F9C5-C07077A8EF02" name="Colaboratori_FK">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>EB33EF0F-6F20-EE51-5060-D559175C3019</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F347DAF5-3960-287B-9ED3-5FEB1649439E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

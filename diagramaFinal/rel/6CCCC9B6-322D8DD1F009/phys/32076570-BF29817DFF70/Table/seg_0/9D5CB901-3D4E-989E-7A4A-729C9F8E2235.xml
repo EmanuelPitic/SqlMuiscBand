@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Colaboratori" directorySegmentName="seg_0" id="9D5CB901-3D4E-989E-7A4A-729C9F8E2235">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Prenume" id="3A07262F-7B38-705B-B45B-143D27563DEF">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Nume" id="622BFBB3-FBBC-C2DA-880B-2C1A5719A40F">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Email" id="750772C7-0CE1-434D-20C6-7DB4B7A0EB92">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Serviciu" id="7D7FB842-CF9A-6AE2-6D1F-9ACECCF579BD">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PFA" id="9055F5A4-CC70-D298-3165-EA10F955076D">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Telefon" id="993149D5-8E60-33E8-9F1E-5815D443C6E5">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_Colaborator" id="9A4C0F8C-7D4D-3B66-6B8C-3C23421039AA">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Colaboratori_PK" id="A53269FE-5A56-1E26-4B65-18DA6174A57E">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Colaboratori_PFA_UN" id="26FF4B52-BFF8-831E-137C-C34628346075">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Colaboratori_Email_UN" id="89DA6039-5684-F630-8038-AB3DB35752C0">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 15:47:50 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

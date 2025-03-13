@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relatie_Client_Eveniment_Fk" directorySegmentName="seg_0" id="4AD1A8FA-F138-8376-DAFD-58B3ADBFB255">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-10-26 11:41:45 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<engineerTo>
+<item key="6CCCC9B6-E7D7-4CA3-5CA5-322D8DD1F009" value="true"/>
+</engineerTo>
+<sourcePk>407ECFFC-849C-A930-89FB-F47BAFB1DE90</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>organizeza</nameOnSource>
+<nameOnTarget>sunt organizate de</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0100EC85-70AD-5F51-E051-888A8C2BA3D6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4863FE18-9520-BB24-B6E5-85451CA5AF07</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

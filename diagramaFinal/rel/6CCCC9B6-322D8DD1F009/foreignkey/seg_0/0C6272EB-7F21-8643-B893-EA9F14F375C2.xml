@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0C6272EB-7F21-8643-B893-EA9F14F375C2" containerWithKeyObject="9DBFCA23-A064-2F0D-88DE-E2D735EFF3AF" localFKIndex="C08DD52C-055C-F214-8B59-25D2B2EB1105" name="Melodii_FK">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>3ED8012A-F3E1-4390-B2CE-13756200F5B6</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<referredTableLongName>Melodii</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>741F51F5-0BE2-8B08-96C8-3FAB3E6CFEBF</referredTableID>
+<keyObject>A8187F11-F920-8F3A-397F-2C8F4B843425</keyObject>
+<referredKeyID>A8187F11-F920-8F3A-397F-2C8F4B843425</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Melodie</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

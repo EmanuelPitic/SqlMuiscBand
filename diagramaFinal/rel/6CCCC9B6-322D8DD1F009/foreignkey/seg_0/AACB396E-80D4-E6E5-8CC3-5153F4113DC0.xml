@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AACB396E-80D4-E6E5-8CC3-5153F4113DC0" containerWithKeyObject="7DD430B0-96D3-B41C-FF82-352D052FAF03" localFKIndex="CB18EA02-4B9F-8898-A161-67A16416A0C0" name="Playlisturi_FK">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>87D0BC06-1285-D5FC-9102-BBA89FA2C97B</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<referredTableLongName>Playlisturi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AF93B114-D2AC-FBD4-88B3-2C604760A9BF</referredTableID>
+<keyObject>1B4CFFBD-72D4-42B2-9C0F-635103F99735</keyObject>
+<referredKeyID>1B4CFFBD-72D4-42B2-9C0F-635103F99735</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Playlist</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

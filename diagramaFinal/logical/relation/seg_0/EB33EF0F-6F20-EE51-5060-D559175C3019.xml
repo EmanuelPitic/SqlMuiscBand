@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Colaboratori_Eveniment" directorySegmentName="seg_0" id="EB33EF0F-6F20-EE51-5060-D559175C3019">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-10-26 12:02:41 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<engineerTo>
+<item key="6CCCC9B6-E7D7-4CA3-5CA5-322D8DD1F009" value="true"/>
+</engineerTo>
+<sourcePk>175FE3FC-9E28-6692-28DC-527AAB54C816</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>include</nameOnSource>
+<nameOnTarget>participa</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4863FE18-9520-BB24-B6E5-85451CA5AF07</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>37A00EF5-7474-CD0A-4C7C-A487B5A07072</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Suma_Negociata" id="2DDA6396-2C7C-CE2F-1C63-34B2EE2D0D17">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-10-26 12:03:30 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<engineerTo>
+<item key="6CCCC9B6-E7D7-4CA3-5CA5-322D8DD1F009" value="true"/>
+</engineerTo>
+<constraintName>colaboratori_eveniment_suma_negociata_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>1500</endValue>
+<description>Pret in €;</description>
+</rangeDef>
+</listOfRanges>
+</attribute>
+</attributes>
+</Relation>

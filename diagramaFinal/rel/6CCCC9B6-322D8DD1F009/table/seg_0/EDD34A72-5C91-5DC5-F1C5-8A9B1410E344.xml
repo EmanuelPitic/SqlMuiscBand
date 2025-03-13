@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDD34A72-5C91-5DC5-F1C5-8A9B1410E344" name="Detalii_Evenimente">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>DC405168-01C6-F584-1BF2-337AEEEBE86E</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Eveniment" id="5AF3B769-3F1A-2138-A884-762B900F3CD4">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>9E075AEE-4AD3-437A-5BD4-3F0FB91DA166</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0BC6EA9-1CD3-445E-8420-E40C96168A5E" referredColumn="F73F9A75-6164-03F6-F74F-FF8777246CE7"/>
+</associations>
+</Column>
+<Column name="Pret_Formatie" id="B7653D6F-4227-0997-A708-081E30EBD929">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>ACDB9DBC-8367-797A-E895-D7AF7A8B0323</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<constraintName>detalii_event_pret_formatie_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>3000</beginValue>
+<endValue>20000</endValue>
+<description>Pret in €</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Tip_Eveniment" id="CED70631-B699-06A4-DD67-990CFE2A3324">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>C1ED17F1-3587-E5C3-9D62-2FEC9E402E2F</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<constraintName>det_event_tip_eveniment_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<listOfValues>
+<valueDef value="Bal" description=""/>
+<valueDef value="Botez" description=""/>
+<valueDef value="Cununie" description=""/>
+<valueDef value="Nunta" description=""/>
+<valueDef value="Petrecere" description=""/>
+<valueDef value="Revelion" description=""/>
+</listOfValues>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numar_Invitati" id="0399CE3A-71AD-62CB-BD82-33F2B4A0762A">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>154DD716-B89D-8727-B454-43C189AF061E</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<constraintName>det_ev_numar_invitati_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>1000</endValue>
+<description>nr_invitati &gt; 0</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Detalii_Suplimentare" id="5C7BCCF3-8AFC-BE86-7B86-8A85B5FED7BD">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>BE2CF067-09CE-7F2C-07A2-ED823E9D43F5</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E835BE93-6FDE-0628-33E9-E5AEBA59CE9D" name="Detalii_Evenimente_PK">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>23917845-3547-4783-F2B4-4965A583E72F</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AF3B769-3F1A-2138-A884-762B900F3CD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79471F6F-BA10-6944-FAE9-E402BA2A3094" name="Evenimente_FKv3">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>DD6F7FC4-B134-7D69-BA73-31D327F94610</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AF3B769-3F1A-2138-A884-762B900F3CD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

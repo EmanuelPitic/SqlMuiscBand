@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E39F101-0260-3668-EE12-90C14B1B7C4D" name="Event_Loc">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Eveniment" id="70083C90-4671-B274-BCB2-8BECCA978329">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3B81813-2F6C-92B4-935C-1C6EB99751EB" referredColumn="F73F9A75-6164-03F6-F74F-FF8777246CE7"/>
+</associations>
+</Column>
+<Column name="ID_Locatie" id="CC2AC09B-BF5D-6137-AC06-B767365424F0">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0468CC3-BF24-09D8-AF19-F4CD6CCBBECF" referredColumn="B94767E8-7DDE-7D5C-6270-BC436806E4FA"/>
+</associations>
+</Column>
+<Column name="Tip_Locatie" id="EC8E83A3-C554-ADAA-E73B-793DDA234E8E">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>85DEB541-8D64-B362-AB51-4D422E184603</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="Ora_Inceput" id="A7804BE2-B67C-CB44-FD2E-35F5751F99BA">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>635C0338-0E95-C670-7E49-946704E8F6FF</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="Ora_Final" id="A573BEBF-EC44-E7BC-22C2-57223FD5627F">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>7E3ED7EB-12CA-8F80-4CED-5AF855510D9E</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="826F7839-93AF-14D4-545E-5A90FE7627E6" name="Eveniment_Locatii_PK">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70083C90-4671-B274-BCB2-8BECCA978329"/>
+<colUsage columnID="CC2AC09B-BF5D-6137-AC06-B767365424F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E620C985-0CEC-206F-0A2B-9B5CB55138B8" name="Evenimente_FKv2">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>01F51C33-4AF6-1C7D-EE4E-B99E3240D42E</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70083C90-4671-B274-BCB2-8BECCA978329"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E67237C-5D85-4D5E-1637-BCC37227AF55" name="Locatii_FK">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-11-11 10:33:05 UTC</createdTime>
+<generatorID>01F51C33-4AF6-1C7D-EE4E-B99E3240D42E</generatorID>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC2AC09B-BF5D-6137-AC06-B767365424F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

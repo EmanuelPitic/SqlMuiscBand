@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="trg_evenimente_2_BRIU" directorySegmentName="seg_0" id="F97C7E4F-E723-B191-26BF-61D8A12BEB78">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 16:08:21 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[BEGIN
+    -- Check if Ora_Final is less than or equal to SYSDATE
+    IF :new.Ora_Final <= SYSDATE THEN
+        RAISE_APPLICATION_ERROR(
+            -20002,
+            'Data invalida: ' || TO_CHAR(:new.Ora_Final, 'DD.MM.YYYY HH24:MI:SS') || 
+            ' trebuie sa fie mai mare decat data curenta.'
+        );
+    END IF;
+
+    -- Check if Ora_Final is less than or equal to Ora_Inceput
+    IF :new.Ora_Final <= :new.Ora_Inceput THEN
+        RAISE_APPLICATION_ERROR(
+            -20003,
+            'Data invalida: ' || TO_CHAR(:new.Ora_Final, 'DD.MM.YYYY HH24:MI:SS') || 
+            ' trebuie sa fie mai mare decat Ora_Inceput (' || 
+            TO_CHAR(:new.Ora_Inceput, 'DD.MM.YYYY HH24:MI:SS') || ').'
+        );
+    END IF;
+END;
+]]></body>
+<triggerTime>BEFORE</triggerTime>
+<table>B987DABB-1675-D057-121C-3367E16AEE4F</table>
+</TriggerOraclev10g>

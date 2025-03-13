@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="trg_clienti_BRIU" directorySegmentName="seg_0" id="C9DB390A-FFEB-90C8-319A-3F7335F62F00">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-12-08 16:01:32 UTC</createdTime>
+<ownerDesignName>diagramaFinal</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[BEGIN
+	IF ( :new.Data_Eveniment <= SYSDATE )
+	THEN
+		RAISE_APPLICATION_ERROR( -20001,
+			'Data invalida: ' || TO_CHAR ( :new.Data_Eveniment, 'DD.MM.YYYY HH24:MI:SS') || 'trebuie sa fie mai mare decat data curenta. ');
+	END IF;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<table>7BEA98E6-6BD4-4B12-E350-B9A9BB9D8A8F</table>
+</TriggerOraclev10g>

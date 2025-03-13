@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="05F5A6D0-C1BB-2462-579A-E9846672F7BE" mainViewID="749384C9-A85A-4BCD-C4DF-A9675043FE2E">
+<createdBy>Pitic</createdBy>
+<createdTime>2024-10-26 11:25:46 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
